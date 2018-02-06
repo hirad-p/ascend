@@ -1,7 +1,7 @@
 # ascend :chart_with_upwards_trend:
 
 ### Definition
-as.cend
+as·cend
 
 /əˈsend/
 
