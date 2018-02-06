@@ -1,7 +1,6 @@
 import java.util.HashMap;
 
-public class Ch1 {
-
+public class Unique {
     public static void main(String[] args) {
         // Testing 1.1
         test_1_1();
