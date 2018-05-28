@@ -1,1 +1,0 @@
-This directory contians questions found on the web and my solution to them. 
