@@ -19,12 +19,12 @@ def add_two_numbers(list1, list2):
   q = list2
   pointer = result
   carry = 0
-  while p is not None and q is not None:
+  while p is not None or q is not None:
     x = p.val if p is not None else 0
     y = q.val if q is not None else 0
     summation = carry + x + y
-    carry = summation / 10
-    pointer.next = ListNode(summation % 10)
+    carry = int(summation / 10)
+    pointer.next = ListNode(int(summation % 10))
     pointer = pointer.next
     if p is not None: 
       p = p.next
@@ -32,5 +32,5 @@ def add_two_numbers(list1, list2):
       q = q.next
   if carry > 0:
     pointer.next = ListNode(carry)
-  return result
+  return result.next
 
