@@ -1,6 +1,6 @@
 #!/bin/python3
 
-# From https://www.hackerrank.com/challenges/alternating-characters
+# From https://www.hackerrank.com/challenges/alternating-characters``
 
 import math
 import os
