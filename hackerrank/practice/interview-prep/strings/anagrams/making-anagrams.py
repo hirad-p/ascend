@@ -28,7 +28,7 @@ def makeAnagram(a, b):
         
     # go through the count items and find the total (abs)
     count = 0
-    for key, value in counts.items():
+    for value in counts.values():
         count += abs(value)
 
     return count
